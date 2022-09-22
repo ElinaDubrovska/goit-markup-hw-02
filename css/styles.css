@@ -159,7 +159,10 @@ button.examples:hover {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-
+button.examples:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
 .works-examples{
     color: var(--text-color);
     font-weight: 700;
