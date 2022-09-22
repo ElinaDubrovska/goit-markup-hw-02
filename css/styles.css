@@ -79,6 +79,7 @@ body{
 .hero-button{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -112,7 +113,7 @@ body{
 
 
 /* команда */
-.member .member-text{
+.member-text{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -120,11 +121,13 @@ body{
 .member{
     color: var(--text-color);
     font-weight: 500;
+    font-size: 16px;
     text-align: center;
+
 }
-.member-text{
+/* .member-text{
     text-align: center;
-}
+} */
 
 /* стилі футера */
 .footer{
@@ -134,20 +137,25 @@ body{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-size: 14px;
-    line-height: 1.71;  
-}
-    
-.address{
-    color: var(--primary-white-color);
+    line-height: 1.71; 
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
+ 
 }
+
+.address-link{
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;  
+    font-style: normal;
+ }   
+
 
 /* portfolio-стилі */
 .button.examples {
     color: var(--text-color);
     background-color: #F5F4FA;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
